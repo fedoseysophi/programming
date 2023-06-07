@@ -26,16 +26,16 @@ class Prescription:
             print(recipe)
 
 
-print('Список лекарств:', Prescription.medication_list) # Начальный список лекарств
+print('Список лекарств:', Prescription.medication_list) 
 rec1 = Prescription('Грип', 'Амоксициллин')
-print('Первый рецепт:', Prescription.recipe_templates) # Не добавлен, т.к. лекарство - в списке
+print('Первый рецепт:', Prescription.recipe_templates) 
 rec2 = Prescription('Грип', 'Ацикловир')
-print('Второй рецепт:', Prescription.recipe_templates) # Добавлен, т.к. лекарства нет в списке
+print('Второй рецепт:', Prescription.recipe_templates) 
 rec3 = Prescription('Волчанка', 'Азатиоприн')
-print('Третий рецепт:', Prescription.recipe_templates) # Добавлен, т.к. лекарства нет в списке
+print('Третий рецепт:', Prescription.recipe_templates) 
 rec4 = Prescription('Имунодифицит', 'Азатиоприн')
-print('Четвертый рецепт:', Prescription.recipe_templates) # Не добавлен, т.к. лекарство - в списке
-print('Список лекарств:', Prescription.medication_list) # Конечный список лекарств
+print('Четвертый рецепт:', Prescription.recipe_templates)
+print('Список лекарств:', Prescription.medication_list) 
 Prescription.getRecipe()
 
 
